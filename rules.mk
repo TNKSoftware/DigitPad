@@ -1,0 +1,16 @@
+#qmk compile -kb digitpad -km via
+
+MCU = atmega32u4
+
+BOOTLOADER = caterina
+
+BOOTMAGIC_ENABLE = full
+MOUSEKEY_ENABLE = yes
+EXTRAKEY_ENABLE = yes
+CONSOLE_ENABLE = no
+COMMAND_ENABLE = no
+SLEEP_LED_ENABLE = no
+NKRO_ENABLE = yes
+BACKLIGHT_ENABLE = no
+AUDIO_ENABLE = no
+RGBLIGHT_ENABLE = no
